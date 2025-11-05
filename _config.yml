@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+title: Magnetic Interference Induced Inaudible Voice Attacks and Defenses on Smart Assistants
+description: Donghui Dai, Department of Computing, The Hong Kong Polytechnic University
+titles_from_headings:
+  enabled: false
+polyu_logo_url: /assets/images/polyu-logo.png
+polyu_comp_logo_url: /assets/images/polyu-comp-logo.png
