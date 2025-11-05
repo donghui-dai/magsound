@@ -1,15 +1,1 @@
-title: Magsound
-description: Personal site powered by Jekyll
-
-# Use a polished, modern theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-plugins:
-  - jekyll-include-cache
-
-# Show an About link in the header
-header_pages:
-  - about.md
-
-# Basic locale
-locale: en
+theme: jekyll-theme-cayman
