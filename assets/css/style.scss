@@ -226,3 +226,49 @@
 }
 
 
+/* Figure floated to the right that wraps with text (used in Abstract) */
+.figure-right {
+  float: right;
+  width: 35%;
+  max-width: 420px;
+  margin: 0.25rem 0 1rem 1rem; /* space from text on left */
+}
+
+.figure-right .pdf-frame,
+.figure-right img {
+  border: 0;
+  display: block;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+  border-radius: 6px;
+}
+
+/* Keep original image intrinsic ratio and size (do not force scaling),
+   but prevent overflow on small containers */
+.figure-right img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Maintain a pleasant frame ratio only for embedded PDFs */
+.figure-right .pdf-frame {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+}
+
+.figure-right .caption {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+  margin-top: 0.35rem;
+}
+
+@media screen and (max-width: 800px) {
+  .figure-right {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 1rem 0;
+  }
+}
