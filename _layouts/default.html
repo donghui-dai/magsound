@@ -22,7 +22,7 @@
       <div class="header-buttons">
         {% if site.polyu_comp_logo_url %}
           <a href="https://www.polyu.edu.hk/comp/" class="btn btn-logo" target="_blank" rel="noopener noreferrer">
-            <img src="{{ site.polyu_comp_logo_url }}" alt="PolyU Department of Computing" class="logo-img comp-logo-img">
+            <img src="{{ site.polyu_comp_logo_url | relative_url }}" alt="PolyU Department of Computing" class="logo-img comp-logo-img">
           </a>
         {% endif %}
 
@@ -37,7 +37,7 @@
 
         {% if site.polyu_logo_url %}
           <a href="https://www.polyu.edu.hk" class="btn btn-logo" target="_blank" rel="noopener noreferrer">
-            <img src="{{ site.polyu_logo_url }}" alt="The Hong Kong Polytechnic University" class="logo-img">
+            <img src="{{ site.polyu_logo_url | relative_url }}" alt="The Hong Kong Polytechnic University" class="logo-img">
           </a>
         {% endif %}
       </div>
