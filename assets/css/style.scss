@@ -115,3 +115,114 @@
 }
 
 
+/* Responsive 50% width video block centered */
+.video-container-50 {
+  width: 50%;
+  margin: 1.5rem auto; /* center horizontally */
+}
+
+.video-container-50 video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 900px) {
+  .video-container-50 { width: 70%; }
+}
+
+@media screen and (max-width: 600px) {
+  .video-container-50 { width: 100%; }
+}
+
+/* Left-aligned 35% width variant */
+.video-container-35 {
+  width: 35%;
+  margin: 1.5rem 0; /* left aligned (no auto margins) */
+}
+
+.video-container-35 video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 900px) {
+  .video-container-35 { width: 60%; }
+}
+
+@media screen and (max-width: 600px) {
+  .video-container-35 { width: 100%; }
+}
+
+/* Left-aligned 25% width variant */
+.video-container-25 {
+  width: 25%;
+  margin: 1.5rem 0;
+}
+
+.video-container-25 video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 900px) {
+  .video-container-25 { width: 50%; }
+}
+
+@media screen and (max-width: 600px) {
+  .video-container-25 { width: 100%; }
+}
+
+/* Centered 40% width variant */
+.video-container-40 {
+  width: 40%;
+  margin: 1.5rem auto; /* centered */
+}
+
+.video-container-40 video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+/* Left-aligned 50% width variant */
+.video-container-50-left {
+  width: 50%;
+  margin: 1.5rem 0; /* left aligned */
+}
+
+.video-container-50-left video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 900px) {
+  .video-container-50-left { width: 70%; }
+}
+
+@media screen and (max-width: 600px) {
+  .video-container-50-left { width: 100%; }
+}
+
+@media screen and (max-width: 900px) {
+  .video-container-40 { width: 70%; }
+}
+
+@media screen and (max-width: 600px) {
+  .video-container-40 { width: 100%; }
+}
+
+
